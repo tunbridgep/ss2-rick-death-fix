@@ -1,3 +1,9 @@
+//Move forcefield down, since otherwise we are able to mantle up the other side, skipping most of the Rickenbacker
++ObjProp 1840 "Position"
+{
+	"Location" "-202.682, -18.1395, 29.9"
+}
+
 //Creating objects via DML doesn't have physics.
 
 //Create Crate
@@ -7,7 +13,7 @@ Create "Marker"
 
 	+ObjProp "Position"
 	{
-		"Location" "-212.917, -39.7349, 34.42"
+		"Location" "-214.417, -38.8349, 32.43"
 		"Heading" 7ec
 		"Pitch" 0
 		"Bank" 4000
@@ -27,7 +33,7 @@ Create "Marker"
 
 	+ObjProp "Position"
 	{
-		"Location" "-212.979, -48.7608, 41.62"
+		"Location" "-214.179, -47.2608, 40.12"
 		"Heading" 0
 		"Pitch" 0
 		"Bank" 2724
@@ -40,6 +46,16 @@ Create "Marker"
 	}
 }
 
+//Move "psi pull" medkit from on top of the pipe, since it can now be easily collected after jumping
+//Move it on top of the higher-up pipe
++ObjProp 1519 "Position"
+{
+	//"Location" "-216.474, -25.8628, 58.4235"
+	"Location" "-216.474, -51.9628, 58.4235"
+	"Heading" e344
+	"Pitch" 0
+	"Bank" 0
+}
 
 /*
 //ADD TESTING STUFF
