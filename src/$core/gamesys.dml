@@ -1,0 +1,3 @@
+//Make the shield no longer hurt you
+-StimSource -2693 "Standard Impact" 00900006
+//-MetaProp -2693 "MatElectric"

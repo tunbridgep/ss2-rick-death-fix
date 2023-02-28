@@ -1,0 +1,63 @@
+DML1
+
+// Object Export of "Space_Shield (-2693)"
+
+// Note: Reverse links are not exported. Links, receptrons, stims and metaproperties are exported with '++',
+//       which will cause duplicates if the DML is used on an already populated object.
+
+
+// Shape->Model Name
++ObjProp "Space_Shield" "ModelName"
+{
+	"" "spacesh"
+}
+
+// Position
++ObjProp "Space_Shield" "Position"
+{
+	"Location" 0.00, 0.00, 0.00
+	"Heading" 0
+	"Pitch" 0
+	"Bank" 0
+}
+
+// Physics->Model->Type
++ObjProp "Space_Shield" "PhysType"
+{
+	"Type" "OBB"
+	"# Submodels" 1
+	"Remove on Sleep" FALSE
+	"Special" FALSE
+}
+
+// Physics->Model->Controls
++ObjProp "Space_Shield" "PhysControl"
+{
+	"Controls Active" "Location, Rotation"
+	"AxisVelocity" 0.00, 0.00, 0.00
+	"Velocity" 0.00, 0.00, 0.00
+	"RotationalVelocity" 0.00, 0.00, 0.00
+}
+
+// Renderer->Alpha Blend Mode
++ObjProp "Space_Shield" "BlendMode"
+{
+	"" "Add"
+}
+
+++MetaProp "Space_Shield" "MatElectric"
+
+++StimSource "Space_Shield" "Standard Impact"
+{
+	Intensity 10000
+
+	Propagator "Contact"
+	{
+		Shape
+		{
+			"Contact Types" "Collision"
+			"Velocity Coeff" 0.00
+			"Frob Time Coeff" 0.00
+		}
+	}
+}

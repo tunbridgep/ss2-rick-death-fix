@@ -1,0 +1,56 @@
+//Creating objects via DML doesn't have physics.
+
+//Create Crate
+Create "Marker"
+{
+	+ObjProp "DesignNoteSS" = "object=-123"
+
+	+ObjProp "Position"
+	{
+		"Location" "-212.917, -39.7349, 34.42"
+		"Heading" 7ec
+		"Pitch" 0
+		"Bank" 4000
+	}
+
+	+ObjProp "Scripts"
+	{
+		"Script 0" "rickObjectPlace"
+		"Don't inherit" false
+	}
+}
+
+//Create Pipe
+Create "Marker"
+{
+	+ObjProp "DesignNoteSS" = "object=-1050"
+
+	+ObjProp "Position"
+	{
+		"Location" "-212.979, -48.7608, 41.62"
+		"Heading" 0
+		"Pitch" 0
+		"Bank" 2724
+	}
+
+	+ObjProp "Scripts"
+	{
+		"Script 0" "rickObjectPlace"
+		"Don't inherit" false
+	}
+}
+
+
+/*
+//ADD TESTING STUFF
+//REMOVE THIS
+
+//Move player start to over forcefield for testing
++ObjProp 1010 "Position"
+{
+	"Location" "-202.682, -18.1395, 40"
+	"Heading" 0
+	"Pitch" 0
+	"Bank" 0
+}
+*/
