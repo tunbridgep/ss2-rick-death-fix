@@ -7,6 +7,6 @@ Packaged releases are usually posted on the forum thread. This repo exists as a 
 
 ## Info for Modders
 
-This mod was made using [makedml](https://github.com/tunbridgep/ss2-makedml). This means the DML files are split into multiple different files.
+This mod was made using [makedml](https://github.com/tunbridgep/ss2-makedml). All it does is add headers. You don't need it if you want to make a modification.
 
-All it does is add headers. You don't need it if you want to make a modification. Instead, just download the source, and add headers manually (headers can be found [here](https://www.systemshock.org/index.php?topic=6821.0))
+Instead, just download the source, and look in src/$core. Those files are all you need to build the final mod, and add headers manually (headers can be found [here](https://www.systemshock.org/index.php?topic=6821.0))
